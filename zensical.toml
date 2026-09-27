@@ -1,0 +1,236 @@
+[project]
+site_name = "Daniel Bazo Correa"
+site_description = "🏛️ Mi wiki personal de ingeniería de telecomunicaciones en Español"
+site_author = "Daniel Bazo Correa"
+site_url = "https://danibcorr.github.io/telco-wiki/"
+repo_url = "https://github.com/danibcorr/telco-wiki"
+repo_name = "danibcorr/telco-wiki"
+copyright = "Copyright &copy; 2026 Daniel Bazo Correa"
+nav = [
+    {"Inicio" = "index.md"},
+    {"Fundamentos" = [
+        {"Señales" = [
+            "01_fundamentos/01_senales/section_1_senales_e_informacion.md",
+            "01_fundamentos/01_senales/section_2_senales_aleatorias_y_ruido.md"
+        ]},
+        {"Canal radio" = [
+            "01_fundamentos/02_canal/section_1_propagacion_y_perdidas.md",
+            "01_fundamentos/02_canal/section_2_desvanecimiento_y_respuesta_del_canal.md"
+        ]},
+        {"Modulación" = [
+            "01_fundamentos/03_modulacion/section_1_modulaciones_analogicas.md",
+            "01_fundamentos/03_modulacion/section_2_modulaciones_digitales.md"
+        ]},
+        {"Acceso al medio" = [
+            "01_fundamentos/04_acceso_al_medio/section_1_multiplexacion.md",
+            "01_fundamentos/04_acceso_al_medio/section_2_acceso_multiple.md",
+            "01_fundamentos/04_acceso_al_medio/section_3_espectro_ensanchado_y_cdma.md",
+            "01_fundamentos/04_acceso_al_medio/section_4_ofdm_y_sc_fdm.md"
+        ]},
+        {"Codificación" = [
+            "01_fundamentos/05_codificacion/section_1_codificacion_de_canal.md",
+            "01_fundamentos/05_codificacion/section_2_codigos_convolucionales.md",
+            "01_fundamentos/05_codificacion/section_3_adaptacion_de_enlace_y_retransmision.md"
+        ]},
+        {"MIMO" = [
+            "01_fundamentos/06_mimo/section_1_fundamentos_mimo.md",
+            "01_fundamentos/06_mimo/section_2_multiplexacion_espacial.md"
+        ]}
+    ]},
+    {"Redes" = [
+        {"Arquitectura" = [
+            "02_redes/01_arquitectura/section_1_capas_y_encapsulado.md"
+        ]},
+        {"IP y transporte" = [
+            "02_redes/02_ip/section_1_protocolo_ip_y_direccionamiento.md",
+            "02_redes/02_ip/section_2_protocolos_de_transporte.md"
+        ]},
+        {"Conmutación y redes locales" = [
+            "02_redes/03_conmutacion_y_lan/section_1_conmutacion_y_ethernet.md",
+            "02_redes/03_conmutacion_y_lan/section_2_redes_de_acceso_fijo.md"
+        ]},
+        {"Encaminamiento" = [
+            "02_redes/04_encaminamiento/section_1_fundamentos_de_encaminamiento.md",
+            "02_redes/04_encaminamiento/section_2_ospf_y_bgp.md",
+            "02_redes/04_encaminamiento/section_3_interconexion_de_redes.md"
+        ]},
+        {"Redes de operador" = [
+            "02_redes/05_redes_de_operador/section_1_convergencia_y_ngn.md"
+        ]}
+    ]},
+    {"Redes móviles" = [
+        {"Fundamentos celulares" = [
+            "03_redes_moviles/01_fundamentos_celulares/section_1_concepto_celular.md",
+            "03_redes_moviles/01_fundamentos_celulares/section_2_movilidad_y_recursos_radio.md"
+        ]},
+        {"GSM y UMTS" = [
+            "03_redes_moviles/02_gsm_y_umts/section_1_gsm.md",
+            "03_redes_moviles/02_gsm_y_umts/section_2_gprs_umts_y_hspa.md"
+        ]},
+        {"LTE" = [
+            "03_redes_moviles/03_lte/section_1_arquitectura_eps.md",
+            "03_redes_moviles/03_lte/section_2_interfaz_radio.md",
+            "03_redes_moviles/03_lte/section_3_protocolos_radio_y_transmision.md"
+        ]},
+        {"5G" = [
+            "03_redes_moviles/04_5g/section_1_arquitectura_5gc.md",
+            "03_redes_moviles/04_5g/section_2_new_radio.md"
+        ]},
+        {"Planificación" = [
+            "03_redes_moviles/05_planificacion/section_1_herramientas_y_dimensionado.md",
+            "03_redes_moviles/05_planificacion/section_2_planificacion_nominal_y_detallada.md"
+        ]},
+        {"Optimización" = [
+            "03_redes_moviles/06_optimizacion/section_1_gestion_de_red_y_kpis.md",
+            "03_redes_moviles/06_optimizacion/section_2_optimizacion_y_son.md"
+        ]}
+    ]},
+    {"Redes inalámbricas" = [
+        {"Panorama" = [
+            "04_inalambricas/01_panorama/section_1_taxonomia_y_arquitecturas.md"
+        ]},
+        {"WLAN" = [
+            "04_inalambricas/02_wlan/section_1_802_11_arquitectura_y_capa_fisica.md",
+            "04_inalambricas/02_wlan/section_2_802_11_acceso_al_medio.md"
+        ]},
+        {"Redes ad hoc" = [
+            "04_inalambricas/03_ad_hoc/section_1_manet_y_encaminamiento.md",
+            "04_inalambricas/03_ad_hoc/section_2_localizacion.md"
+        ]},
+        {"IoT y LPWAN" = [
+            "04_inalambricas/04_iot_lpwan/section_1_lpwan_e_iot.md"
+        ]},
+        {"Bluetooth" = [
+            "04_inalambricas/05_bluetooth/section_1_bluetooth_y_ble.md"
+        ]}
+    ]},
+    {"Servicios" = [
+        {"Multimedia" = [
+            "05_servicios/01_multimedia/section_1_servicios_multimedia.md"
+        ]},
+        {"Protocolos multimedia" = [
+            "05_servicios/02_protocolos/section_1_sip_y_sdp.md",
+            "05_servicios/02_protocolos/section_2_rtp_rtcp_y_rtsp.md"
+        ]},
+        {"IMS y voz" = [
+            "05_servicios/03_ims_y_voz/section_1_ims.md",
+            "05_servicios/03_ims_y_voz/section_2_voz_sobre_ip_y_volte.md"
+        ]},
+        {"Difusión" = [
+            "05_servicios/04_difusion/section_1_iptv_y_difusion.md"
+        ]},
+        {"Calidad de servicio" = [
+            "05_servicios/05_qos_y_qoe/section_1_qos_en_redes_ip.md",
+            "05_servicios/05_qos_y_qoe/section_2_calidad_de_experiencia.md"
+        ]},
+        {"Servicios y regulación" = [
+            "05_servicios/06_servicios_y_regulacion/section_1_catalogo_de_servicios.md",
+            "05_servicios/06_servicios_y_regulacion/section_2_regulacion_y_organismos.md"
+        ]}
+    ]},
+    {"Tráfico" = [
+        {"Teoría de colas" = [
+            "06_trafico/01_colas/section_1_teoria_de_colas.md",
+            "06_trafico/01_colas/section_2_erlang_y_dimensionado.md"
+        ]}
+    ]},
+    {"Virtualización" = [
+        {"Virtualización y contenedores" = [
+            "07_virtualizacion/01_virtualizacion/section_1_tipos_de_virtualizacion.md",
+            "07_virtualizacion/01_virtualizacion/section_2_contenedores_y_orquestacion.md"
+        ]},
+        {"SDN y NFV" = [
+            "07_virtualizacion/02_sdn_y_nfv/section_1_sdn.md",
+            "07_virtualizacion/02_sdn_y_nfv/section_2_nfv_y_mano.md",
+            "07_virtualizacion/02_sdn_y_nfv/section_3_ran_virtualizada_y_edge.md"
+        ]},
+        {"Software de comunicaciones" = [
+            "07_virtualizacion/03_software_de_comunicaciones/section_1_desarrollo_de_software.md"
+        ]}
+    ]},
+]
+extra_css = ["assets/stylesheets/extra.css"]
+extra_javascript = [
+    "assets/javascripts/mathjax.js",
+    "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
+]
+
+[project.theme]
+language = "es"
+logo = "assets/img/branding/white_logo.svg"
+favicon = "assets/img/branding/logo.ico"
+features = [
+    "announce.dismiss",
+    "content.code.annotate",
+    "content.code.copy",
+    "content.code.select",
+    "content.footnote.tooltips",
+    "content.tabs.link",
+    "content.tooltips",
+    "navigation.footer",
+    "navigation.indexes",
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.sections",
+    "navigation.tabs",
+    "navigation.top",
+    "navigation.tracking",
+    "search.highlight",
+]
+
+[[project.theme.palette]]
+accent = "orange"
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+accent = "orange"
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+[project.extra]
+homepage = "https://www.linkedin.com/in/danibcorr/"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/in/danibcorr/"
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.tables]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+
+[project.markdown_extensions.toc]
+permalink = true
+toc_depth = 3
+
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.snippets]
+
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]

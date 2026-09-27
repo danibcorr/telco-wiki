@@ -1,0 +1,37 @@
+# Folders
+/data/
+/saved_objects/
+/runs/
+__pycache__/
+.mypy_cache/
+/results/
+*build/
+*dist/
+*venv/
+*env/
+*site/
+*.egg-info/
+.pytest_cache/
+*.ruff_cache/
+.cache
+.complexipy_cache/
+*target/
+
+# Material de partida y extracciones automáticas
+_source/
+_extracted/
+*.zip
+
+# Andamiaje de agentes, no forma parte del sitio publicado
+.kiro/
+
+# Files
+*.pyc
+*.pyo
+*.pyd
+*.egg-info
+.python-version
+
+# Exceptions
+!/.github/**
+node_modules/

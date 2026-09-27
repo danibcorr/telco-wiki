@@ -1,0 +1,36 @@
+[project]
+name = "telco-wiki"
+description = "🏛️ Wiki personal de ingeniería de telecomunicaciones en Español"
+authors = [
+    {name = "Daniel Bazo Correa", email = "none@none.com"},
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+version = "0.1.0"
+requires-python = ">=3.12"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development",
+]
+keywords = ["telecommunications", "networks", "wireless", "wiki"]
+dependencies = [
+    "zensical==0.0.65",
+]
+
+[tool.uv]
+cache-keys = [{ file = "pyproject.toml" }, { git = { commit = true } }]
+environments = [
+    "sys_platform == 'linux'",
+]
+required-environments = [
+    "sys_platform == 'linux' and platform_machine == 'x86_64'"
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.format]
+quote-style = "double"
